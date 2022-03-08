@@ -2,7 +2,7 @@
 // packages to consume. This is a clone of HashiCorp's implementation.
 // Do Not import any other Reaper packages in this module.
 
-package corvus
+package version
 
 import (
 	"fmt"
