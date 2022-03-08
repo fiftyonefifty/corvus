@@ -1,4 +1,4 @@
-module corvus
+module github.com/fiftyonefifty/corvus
 
 go 1.17
 
