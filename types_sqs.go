@@ -1,6 +1,6 @@
 // Types
 
-package types
+package corvus
 
 type SQSMessage struct {
 	MessageID     string            `json:"messageId"`

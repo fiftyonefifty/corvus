@@ -1,4 +1,4 @@
-package types
+package corvus
 
 import (
 	"encoding/json"
