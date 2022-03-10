@@ -11,9 +11,9 @@ type Client struct {
 }
 
 // NewS3Client creates a new client for the S3 service.
-func NewS3Client(region string) (*Client, error) {
+func NewS3Client() (*Client, error) {
 	// Initialize client configuration
-	cfg, err := config.LoadDefaultConfig(context.TODO(), config.WithRegion(region))
+	cfg, err := config.LoadDefaultConfig(context.TODO())
 	if err != nil {
 		return nil, err
 	}
