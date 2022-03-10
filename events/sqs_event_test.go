@@ -1,4 +1,4 @@
-package corvus
+package events
 
 import (
 	"encoding/json"
